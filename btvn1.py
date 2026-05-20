@@ -9,9 +9,5 @@ else:
 
 tien_phai_tra = tong_tien - tien_giam
 
-print("----------------------------")
-print(f"Tổng tiền ban đầu : {tong_tien:,} VND")
-print(f"Giảm giá          : {phan_tram_giam}%")
 print(f"Số tiền giảm      : {tien_giam:,} VND")
 print(f"Tiền phải trả     : {tien_phai_tra:,} VND")
-print("----------------------------")
